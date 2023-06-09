@@ -33,4 +33,7 @@ Route::get('/kampanya', function () {
     return redirect()->route('urun_detay', ['isim' => 'elma', 'id' => 7]);
 });
 
-// deneme
+Route::get('/kampanys', function () {
+    return redirect()->route('urun_detay', ['isim' => 'elma', 'id' => 7]);
+});
+
